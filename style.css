@@ -1,0 +1,30 @@
+body{
+background-color: black;
+
+}
+
+
+.nav-card ul{
+display: flex;
+gap:40px;
+
+
+}
+.container{
+position: relative;
+display: flex;
+
+}
+.nav-list {
+list-style-type: none;
+
+}
+.nav-list a{
+text-decoration: none;
+color:white;
+}
+.button{
+padding:5px 5px 5px 5px;
+}
+
+
