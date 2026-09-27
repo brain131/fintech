@@ -50,6 +50,11 @@ text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
+gap: 50px;
 }
+.about-button{
+padding:5px 5px 5px 5px;
 
+
+}
 
