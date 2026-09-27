@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-  <nav class="container">
+  <nav class="container"id="home">
    <p style="color: white;">FINTECH</p>
    
         <div class="nav-card">
             <ul class="nav-list">
-                 <li><a href="index.html">Home page</a></li>
-                <li><a href=".html">Features</a></li>
-                <li><a href="index.html">Resources</a></li>
+                 <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
                 <button class="button">Contact Us</button>
             </ul>
 
 
         </div>
   </nav>  
-<section class="hero-section">
+<section class="hero-section"id="home">
     <div class="hero-container">
         
         
@@ -36,7 +36,7 @@
 
 
 </section>
-<section class="services-section">
+<section class="services-section"id="services">
     <div>
         <p>What we do?</p>
         <h2>Our Services</h2>
@@ -73,7 +73,7 @@
 
     
 </section>
-<section class="about-section">
+<section class="about-section"id="about">
     <div class="about-card">
         <h2 >About us</h2>
         <p>We build cloud infrastructure that helps engineering <br>teams ship code twice as fast</p>
@@ -86,7 +86,7 @@
     </div>
 
 </section>
-<section class="form-section">
+<section class="form-section"id="contact-us">
     <form onsubmit="return validateform()">
     
         <div>
@@ -113,13 +113,39 @@
 
 
 </section>
-<footer>
+<footer class="footer-container">
     <div>
-        
+        <ul>
+            <h3>Resources</h3>
+            <li>Application</li>
+            <li>Documentation</li>
+            <li>FAQ</li>
+        </ul>
 
 
     </div>
+    <div>
+        <ul>
+            <h3>Pricing</h3>
+            <li>Premium price</li>
+            <li>Promotions</li>
+            <li>FAQ</li>
+        </ul>
 
+
+    </div>
+    <div>
+        <ul>
+            <h3>Links</h3>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#services">Services</a></li>
+
+        </ul>
+
+
+    </div>
 
 
 </footer>
