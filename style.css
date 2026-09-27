@@ -1,5 +1,5 @@
 body{
-background-color: black;
+background-color: rgb(55, 54, 54);
 color: white;
 }
 .nav-card ul{
@@ -75,5 +75,12 @@ gap:4em;
 border-radius: 40px;
 
 }
+.form-section{
+display: flex;
+justify-content: center;
+margin-top: 1em;
+
+}
+
 
 

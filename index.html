@@ -86,6 +86,70 @@
     </div>
 
 </section>
+<section class="form-section">
+    <form onsubmit="return validateform()">
+    
+        <div>
+            <label for="firstname">Firstname</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+        </div>
+
+        <div>
+            <label for="email">Email address</label><br>
+            <input type="text" id="email" name="email"><br>
+        </div>
+        <div>
+
+            <label for="id">National ID</label><br>
+            <input type="text" id="id" name="id"><br>
+        </div>
+        <div>
+
+            <input type="submit">
+
+        </div>
+    </form>
+
+
+</section>
+<footer>
+    <div>
+        
+
+
+    </div>
+
+
+
+</footer>
+
+
+
+
+<script>
+    function validateform(){
+        var fname=document.getElementById("fname").value;
+        var email=document.getElementById("email").value;
+        var id=document.getElementById("id").value;
+        if(fname==""){
+            alert("please fill in input name");
+            return false;
+        }
+         if(email==""){
+            alert("please fill in input email");
+            return false;
+
+         }
+
+         return true;
+    }
+    
+
+
+</script>
+
+
 
 </body>
 </html>
