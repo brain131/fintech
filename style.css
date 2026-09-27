@@ -26,5 +26,16 @@ color:white;
 .button{
 padding:5px 5px 5px 5px;
 }
+.hero-container{
+background-image: url(img1.jpg);
+height: 80vh;
+width:100%;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+
+
 
 
