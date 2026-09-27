@@ -53,8 +53,27 @@ justify-content: center;
 gap: 50px;
 }
 .about-button{
-padding:5px 5px 5px 5px;
-
+padding:8px 8px 8px 8px;
+border-radius: 20px;
+border: none;
+}
+.about-button:hover{
+background-color:rgb(66, 99, 156);    
+transition: 0.8s;
+color: white;
 
 }
+.about-section{
+display: flex;
+flex-wrap:nowrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap:4em;
+}
+.img-card >img{
+border-radius: 40px;
+
+}
+
 
